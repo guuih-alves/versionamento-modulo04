@@ -1,0 +1,140 @@
+body{
+  background-color: rgba(45, 45, 45, 1)
+}
+
+.to-do-list{
+  margin-top: 100px;
+}
+
+.header{
+  width: 1440px;
+  height: 74px;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-size: 25px;
+  background-color:rgba(12, 112, 242, 1);
+  display: flex;
+  gap: 20px;
+}
+
+.header span{
+  padding-left: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.header span:hover{
+  background-color: white;
+  color: blue;
+  height: 40px;
+  border-radius: 10px 10px 0 0;
+
+
+}
+
+h1{
+  font-size: 40px;
+  font-family: "Poppins", serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+  #form{
+    width: 700px;
+    height: 300px;
+    display: inline-block;
+
+
+  }
+
+  .add-button{
+    background: none;
+  }
+
+  .add-button:hover{
+    background-color: blueviolet;
+  }
+
+  .delete-button{
+    background: none;
+  } 
+
+  .delete-button:hover{
+    background-color: blueviolet;
+  }
+
+  input[type="text"]{
+    font-size: 20px;
+    border: 2px solid rgba(red, green, blue, alpha);
+    padding: 10px;
+    border-radius: 5px;
+    color: gray;
+    background: none;
+    justify-content: left;
+  }
+
+  ol {
+    width: 700px;
+    padding: 0; 
+  }
+
+  hr{
+    height: 5px;
+    background-color: white;
+  }
+
+
+  li{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgba(45, 45, 45, 1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul.title{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+  }
+
+  li.title2{
+    border: none;
+    font-size: 30px;
+
+  }
+
+ 
+  .delete-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+  }
+
+  .text{
+    width: 200px;
+  }
+
+  #add{
+      text-align: left;
+     
+  }
+
+  
