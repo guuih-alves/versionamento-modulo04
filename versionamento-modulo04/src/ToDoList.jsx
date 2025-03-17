@@ -1,7 +1,7 @@
 
 import Teacher1 from "./assets/Vector.svg"
 import Teacher2 from "./assets/delete.svg"
-import Swal from 'sweetalert2'
+
 
 function ToDoList(){
 
