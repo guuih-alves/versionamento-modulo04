@@ -56,7 +56,7 @@ function ToDoList(){
                         <span>Tarefas</span>
                 </div>
 
-                <h1>Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
+                <h1>Otimize seu tempo e se organize com o nosso Planejador Diário .</h1>
 
             <div id="form">
                 <ul className="title">
